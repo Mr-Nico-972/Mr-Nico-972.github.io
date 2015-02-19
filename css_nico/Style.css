@@ -1,0 +1,101 @@
+body{
+  background-image: url("simple2.jpg");
+  font-family: verdana, helvetica,sans-serif;
+  font-size: 15px;
+  
+}
+
+ul{
+    list-style-type: none;
+}
+
+a,h2{
+  text-align: center;
+  text-shadow: 5px 5px 5px red;
+  font-weight: bold;
+  color:blue ;
+}
+
+
+
+h3{
+  text-align: center;
+  text-shadow: 5px 5px 5px red;
+  font-weight: bold;
+  color:green ;
+}
+
+ section {
+  background: linear-gradient(to right, yellow  , red);
+  box-shadow:10px 10px 6px #0C3306;
+  border: solid thin;
+  border-radius: 6px;
+  padding: 1ex;
+  margin: 2ex;
+  box-shadow: 5px 5px 5px 5px;
+  font-weight: bold;
+  color: darkblue;
+  text-align: center;
+  
+}
+
+footer {
+  width: 95%;
+  margin: 2em auto;
+  border-top: solid thin ;
+  text-align: center;
+  color: blue;
+}
+
+header {
+  text-align: center;
+  text-shadow: 5px 5px 5px #FF0000;
+  color: blue;
+  
+}
+
+#navigation{
+
+    width: 1000px;
+	/*background-color:black;
+	color: blue;*/
+    height: 35px;
+    font-size: 16px;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 5px 5px 10px #0D0A33;
+	padding: 10px; 
+}
+
+#navigation li {
+
+   display: inline;
+   margin: 50px;
+   text-align: center;
+}
+
+/* unvisited link */
+a:link {
+    color: red;
+	text-decoration: none;
+	
+}
+
+/* visited link */
+a:visited {
+    color: red;
+	text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: blue;
+	text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: green;
+	text-decoration:none;
+}
